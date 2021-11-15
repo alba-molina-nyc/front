@@ -24,8 +24,9 @@ function App() {
 
   return (
     <div>
-      <Header />
-      <Nav />
+     <Nav />
+     <Header />
+    
      <Routes>
        <Route path='/' element={<Home />}/>
        <Route path='/press' element={<Press />}/>

@@ -7,11 +7,10 @@ const Header = (props) => {
 
      <>
      <StyledHeader>
-
-       <Link to="/"> <h1>Home</h1> </Link>
+   
+       <Link to="/"> <h1>Alba Molina</h1> </Link>
        <Link to="/about"> <h1>About</h1> </Link>
        <Link to="/contact"> <h1>Get in touch</h1> </Link>
-       <Link to="/book"> <h1>Book a demo</h1> </Link>
        </StyledHeader>
        </>
  

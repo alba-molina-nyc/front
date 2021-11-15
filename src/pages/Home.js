@@ -1,11 +1,13 @@
+import { StyledBody } from '../styles';
+import { Link } from 'react-router-dom';
+
 const Home = (props) => {
     return (
-     <>
-            <h1>is this working</h1>
-            <img src='https://i.imgur.com/cRoydj4.png?1' 
-           width='15%'
-           alt='home'/>
-       </>
+     <StyledBody>
+            <Link to="/main"><h3>enter</h3></Link>
+   <img src='https://i.imgur.com/PlLzHCj.png' width='65%'></img>
+       </StyledBody>
+    
     );
 };
 
